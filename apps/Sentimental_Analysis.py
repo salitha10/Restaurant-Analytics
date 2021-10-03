@@ -22,6 +22,7 @@ from sklearn.linear_model import LogisticRegression
 
 
 nltk.download('stopwords')
+nltk.download('wordnet')
 
 #Initializing the instances
 tokenizer = RegexpTokenizer(r'\w+')
