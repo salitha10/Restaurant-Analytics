@@ -282,7 +282,7 @@ def app():
         Takeaway = 0
 
 
-    listed_in_select = st.selectbox('Listed in', ['Buffet', 'Cafes', 'Delivery', 'Desserts', 'Dine-out',
+    listed_in_select = st.selectbox('Service type', ['Buffet', 'Cafes', 'Delivery', 'Desserts', 'Dine-out',
         'Drinks & nightlife', 'Pubs and bars'])
 
     listed_ins = {'Buffet': 0,

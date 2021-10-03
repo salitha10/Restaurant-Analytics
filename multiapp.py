@@ -41,7 +41,7 @@ class MultiApp:
 
     def run(self):
 
-        main_bg = "bgImage.jpg" 
+        main_bg = "bgImage1.jpg" 
         main_bg_ext = "bgImage.jpg"
 
         # side_bg = "background.jpg"
